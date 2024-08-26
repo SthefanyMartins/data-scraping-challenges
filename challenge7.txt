@@ -1,0 +1,8 @@
+Na AWS, VPC (Virtual Private Cloud), Subnets, e Security Groups trabalham juntos com a finalidade de gerenciar a infraestrutura de rede e segurança:
+
+ - VPC: É uma rede virtual isolada onde você lança recursos como instâncias EC2. Ela define a estrutura e controle geral da rede.
+ - Subnets: São subdivisões dentro da VPC que segmentam o ambiente de rede em sub-redes públicas (com acesso à internet) e privadas (sem acesso direto à internet),
+ permitindo isolar recursos com base em suas funções e necessidades de segurança.
+ - Security Groups: Funcionam como firewalls virtuais para instâncias específicas, controlando o tráfego de entrada e saída com regras bem definidas.
+
+Esses componentes juntos permitem criar uma infraestrutura segura e organizada, com controle preciso sobre o tráfego de rede e a segurança dos recursos na nuvem.

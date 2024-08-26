@@ -1,0 +1,6 @@
+Host:ec2-52-200-142-116.compute-1.amazonaws.com:ftp
+Usuário: ctflteste
+Senha: YdrTXPK#mcG7KUT#H@$P
+
+Nome do arquivo: Great Job.txt
+Conteúdo do arquivo: Your server is not safe, try for new password ideas in next time.ldoebaot.h
