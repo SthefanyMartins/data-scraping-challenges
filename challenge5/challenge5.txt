@@ -1,0 +1,20 @@
+1 - Definir a Classe Node: Cada nó na árvore precisa armazenar um valor e referências para seus nós filhos. Definimos uma classe Node que representará um nó da árvore.
+    - Dentro da classe Node temos o  __init__(self, value) que inicializa um nó com o valor dado e define os filhos esquerdo e direito como None.
+
+2 - Definir a Classe BinaryTree: A classe BinaryTree representará a árvore em si, com um nó raiz (root). Essa classe também incluirá métodos para inserção de valores,
+busca, e outras operações comuns em árvores binárias. Dentro da classe BinaryTree temos as seguintes classes:
+    - __init__(self) que inicializa a árvore com um nó raiz (root) que começa como None.
+    - A função insert(self, value) é um método público que insere um valor na árvore.
+    - A função _insert_recursive(self, current_node, value) é um método privado que auxilia na inserção recursiva, navegando pela árvore até encontrar a posição correta
+    para o novo nó.
+    - A função search(self, value) é um método público que busca um valor na árvore.
+    - A função _search_recursive(self, current_node, value) é um método privado que auxilia na busca recursiva do valor na árvore.
+    - A função inorder_traversal(self) retorna uma lista com os valores da árvore em ordem (in-order traversal).
+    - A função _inorder_recursive(self, current_node, result)é um método privado que realiza a travessia in-order recursiva.
+
+3 - Adicionar Testes Unitários: Usaremos a biblioteca unittest do Python para criar testes unitários que validem a funcionalidade da nossa árvore binária.
+    - A função setUp(self) é um método que é chamado antes de cada teste, onde é criada uma árvore de exemplo para ser utilizada nos testes.
+    - A função test_insert_and_search(self) testa a funcionalidade de inserção e busca na árvore.
+    - A função test_inorder_traversal(self) testa se a travessia in-order está retornando os valores na ordem correta.
+
+

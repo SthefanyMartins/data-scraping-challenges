@@ -7,6 +7,8 @@ This repository contains various data scraping projects developed in Python. Eac
 - **challenge1/:** This project involves creating a Python script that automates data extraction from the [Compra Agora](https://www.compra-agora.com/). website. The goal is to interact with the site to collect specific information and save it in a JSON file.
 - **challenge2/:** This project consists of a Python script using the Scrapy library to automate the process of retrieving billing returns for orders placed by users.
 - **challenge4:** This file contains the requested data from Challenge 4's investigation.
+- **challenge5/:** This project presents the creation of a binary tree with unit tests.
+- **challenge6/:** This project takes all of J K Rowling's quotes from the website [quotes.toscrape.com](https://quotes.toscrape.com/) and turns them into JSON.
 - **challenge7:** This file contains the response for challenge 7.
 
 ### Requirements
